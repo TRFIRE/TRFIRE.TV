@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:0 type="playlist" description="7 canais confirmados",CANAIS TV ABERTA
+#EXTSIZE: Big
+#EXTBG: https://SEU_USUARIO.github.io/tv-sp-iptv/capa-principal.jpg
+https://SEU_USUARIO.github.io/tv-sp-iptv/canais-abertos.m3u
+#EXTINF:0 type="playlist" description="Reservado para canais futuros",CANAIS FECHADO
+#EXTSIZE: Medium
+#EXTBG: #243052
+https://SEU_USUARIO.github.io/tv-sp-iptv/canais-fechados.m3u
+#EXTINF:0 type="playlist" description="9 links de reserva aprovados",TESTE DE LINKS
+#EXTSIZE: Medium
+#EXTBG: #24447b
+https://SEU_USUARIO.github.io/tv-sp-iptv/teste-de-links.m3u
+#EXTINF:0 type="playlist" description="Temporariamente vazio",LINKS PARA ANALISAR
+#EXTSIZE: Medium
+#EXTBG: #4a335f
+https://SEU_USUARIO.github.io/tv-sp-iptv/links-para-analisar.m3u

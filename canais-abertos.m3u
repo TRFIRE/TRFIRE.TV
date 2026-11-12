@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="TVCultura.br" tvg-name="02. TV CULTURA - SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Cultura_logo_2013.svg" group-title="CANAIS TV ABERTA",02. TV CULTURA - SP
+#EXTSIZE: Medium
+#EXTBG: #132c70
+https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 tvg-id="SBTNacional.br" tvg-name="04. SBT - SP" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo%20do%20SBT%20%282025%29.png" group-title="CANAIS TV ABERTA",04. SBT - SP
+#EXTSIZE: Medium
+#EXTBG: #2250a8
+https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGloboSaoPaulo.br" tvg-name="05 - GLOBO HD - SP" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/TV%20Globo%20logo%20%28April%202025%29.png" group-title="CANAIS TV ABERTA",05 - GLOBO HD - SP
+#EXTSIZE: Medium
+#EXTBG: #171a46
+https://cdn-sp2.satlabscloud.com.br/GLOBO_HD/index.m3u8
+#EXTINF:-1 tvg-id="RecordTVSaoPaulo.br" tvg-name="07 - RECORD HD - SP" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/record-tv-logo.png" group-title="CANAIS TV ABERTA",07 - RECORD HD - SP
+#EXTSIZE: Medium
+#EXTBG: #162e6c
+https://cdn-sp2.satlabscloud.com.br/RECORD/index.m3u8
+#EXTINF:-1 tvg-id="RedeTV.br" tvg-name="09. REDE TV! HD - SP" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/redetv-logo.png" group-title="CANAIS TV ABERTA",09. REDE TV! HD - SP
+#EXTSIZE: Medium
+#EXTBG: #342057
+http://170.83.49.66:8083/REDETVHD/index.m3u8
+#EXTINF:-1 tvg-id="TVGazeta.br" tvg-name="11. GAZETA HD - SP" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/TV%20Gazeta%202026.svg" group-title="CANAIS TV ABERTA",11. GAZETA HD - SP
+#EXTSIZE: Medium
+#EXTBG: #124b65
+http://186.219.52.187/gazeta/index.m3u8
+#EXTINF:-1 tvg-id="Band.br" tvg-name="13. BAND HD - SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Band_logo_2022.png" group-title="CANAIS TV ABERTA",13. BAND HD - SP
+#EXTSIZE: Medium
+#EXTBG: #064e51
+https://cdn-sp2.satlabscloud.com.br/BAND_HD/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7
