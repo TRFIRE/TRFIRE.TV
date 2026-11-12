@@ -1,0 +1,18 @@
+# Atualização TV SÃO PAULO — 2 pastas
+
+Repositório: https://github.com/TRFIRE/TRFIRE.TV
+
+Envie os 4 arquivos desta pasta à **raiz do repositório**, usando exatamente os mesmos nomes para substituir os atuais:
+
+- `lista-pastas.m3u` — exibe as pastas CANAIS TV ABERTA e CANAIS ALEATÓRIOS na LG.
+- `teste-de-links.m3u` — preserva 9 fontes aprovadas, agora com grupo CANAIS ALEATÓRIOS.
+- `lista.m3u` — versão simples com o mesmo nome de grupo, sem trocar os links de transmissão.
+- `index.html` — atualiza a página do GitHub Pages e seu gerador de playlists para 2 pastas.
+
+**Não é necessário alterar** `canais-abertos.m3u`, `capa-principal.jpg`, `logo-principal.png` nem o endereço da playlist no SS IPTV.
+
+Endereço já configurado na TV: https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
+
+Para publicar, use GitHub → repositório TRFIRE.TV → Add file → Upload files → selecione estes quatro arquivos → Commit changes. Aguarde a publicação e atualize o SS IPTV na LG. Se ainda mostrar as pastas antigas, feche/abra o aplicativo e atualize a playlist externa.
+
+Os arquivos `canais-fechados.m3u` e `links-para-analisar.m3u` podem continuar no repositório, sem aparecerem na TV, pois nenhum índice passa a apontar para eles. Se desejar limpeza total, apague-os depois com segurança, pois não são mais usados.

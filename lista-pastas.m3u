@@ -1,17 +1,9 @@
 #EXTM3U
-#EXTINF:0 content-type="playlist" description="7 canais selecionados e aprovados",CANAIS TV ABERTA
+#EXTINF:0 content-type="playlist" description="7 canais de TV aberta aprovados",CANAIS TV ABERTA
 #EXTSIZE: Big
 #EXTBG: https://trfire.github.io/TRFIRE.TV/capa-principal.jpg
 https://trfire.github.io/TRFIRE.TV/canais-abertos.m3u
-#EXTINF:0 content-type="playlist" description="Pasta reservada para canais futuros",CANAIS FECHADO
-#EXTSIZE: Medium
-#EXTBG: #243052
-https://trfire.github.io/TRFIRE.TV/canais-fechados.m3u
-#EXTINF:0 content-type="playlist" description="9 links de reserva aprovados",TESTE DE LINKS
+#EXTINF:0 content-type="playlist" description="9 links alternativos que funcionaram",CANAIS ALEATÓRIOS
 #EXTSIZE: Medium
 #EXTBG: #24447b
 https://trfire.github.io/TRFIRE.TV/teste-de-links.m3u
-#EXTINF:0 content-type="playlist" description="Novos links em testes",LINKS PARA ANALISAR
-#EXTSIZE: Medium
-#EXTBG: #4a335f
-https://trfire.github.io/TRFIRE.TV/links-para-analisar.m3u
