@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:0 content-type="playlist" description="7 canais de TV aberta aprovados",CANAIS TV ABERTA
+#EXTINF:0 content-type="playlist" description="9 canais selecionados e aprovados",CANAIS TV ABERTA
 #EXTSIZE: Big
 #EXTBG: https://trfire.github.io/TRFIRE.TV/capa-principal.jpg
 https://trfire.github.io/TRFIRE.TV/canais-abertos.m3u

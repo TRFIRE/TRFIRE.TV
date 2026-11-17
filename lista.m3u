@@ -27,6 +27,14 @@ http://186.219.52.187/gazeta/index.m3u8
 #EXTSIZE: Medium
 #EXTBG: #064e51
 https://cdn-sp2.satlabscloud.com.br/BAND_HD/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7
+#EXTINF:-1 tvg-id="AXN.br" tvg-name="15. AXN HD - BR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="CANAIS TV ABERTA",15. AXN HD - BR
+#EXTSIZE: Medium
+#EXTBG: #151515
+http://170.83.16.50/AXN/index.m3u8
+#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Colombia" tvg-name="17. UNIVERSAL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" group-title="CANAIS TV ABERTA",17. UNIVERSAL TV
+#EXTSIZE: Medium
+#EXTBG: #23385c
+http://38.134.250.110:8000/play/a006/index.m3u8
 #EXTINF:-1 tvg-id="SBTNacional.br" tvg-name="SBT - LINK 02 (TESTE 01)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo%20do%20SBT%20%282025%29.png" group-title="CANAIS ALEATÓRIOS",SBT - LINK 02 (TESTE 01)
 #EXTSIZE: Medium
 #EXTBG: #2250a8
