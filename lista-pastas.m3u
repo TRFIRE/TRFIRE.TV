@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:0 content-type="playlist" description="9 canais selecionados e aprovados",CANAIS TV ABERTA
+#EXTINF:0 content-type="playlist",CANAIS TV ABERTA
 #EXTSIZE: Big
-#EXTBG: https://trfire.github.io/TRFIRE.TV/capa-principal.jpg
+#EXTBG: https://trfire.github.io/TRFIRE.TV/pasta-canais-abertos.jpg
 https://trfire.github.io/TRFIRE.TV/canais-abertos.m3u
-#EXTINF:0 content-type="playlist" description="9 links alternativos que funcionaram",CANAIS ALEATÓRIOS
-#EXTSIZE: Medium
-#EXTBG: #24447b
+#EXTINF:0 content-type="playlist",CANAIS ALEATÓRIOS
+#EXTSIZE: Big
+#EXTBG: https://trfire.github.io/TRFIRE.TV/pasta-canais-aleatorios.jpg
 https://trfire.github.io/TRFIRE.TV/teste-de-links.m3u

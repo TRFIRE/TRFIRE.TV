@@ -23,7 +23,7 @@ http://170.83.49.66:8083/REDETVHD/index.m3u8
 #EXTSIZE: Medium
 #EXTBG: #124b65
 http://186.219.52.187/gazeta/index.m3u8
-#EXTINF:-1 tvg-id="Band.br" tvg-name="13. BAND HD - SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Band_logo_2022.png" group-title="CANAIS TV ABERTA",13. BAND HD - SP
+#EXTINF:-1 tvg-id="Band.br" tvg-name="13. BAND HD - SP" tvg-logo="https://trfire.github.io/TRFIRE.TV/logo-band.png" group-title="CANAIS TV ABERTA",13. BAND HD - SP
 #EXTSIZE: Medium
 #EXTBG: #064e51
 https://cdn-sp2.satlabscloud.com.br/BAND_HD/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7
