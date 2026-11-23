@@ -1,8 +1,8 @@
-# TV ONLINE — V15 (sem pastas) — SS IPTV LG
+# TV ONLINE — V15.1 — Apenas 15 posições na lista pública
 
-A playlist abre diretamente nos canais, **sem nenhuma pasta**.
+A playlist abre **diretamente** nos canais, sem pastas. A sequência termina em **15. UNIVERSAL TV**. Nenhum canal de backup é publicado ou aparece depois da posição 15.
 
-## Ordem da grade principal (01 a 15)
+## Ordem da grade (controle remoto)
 
 01. SEM SINAL
 02. TV CULTURA - SP
@@ -20,32 +20,33 @@ A playlist abre diretamente nos canais, **sem nenhuma pasta**.
 14. AXN HD - BR
 15. UNIVERSAL TV
 
-Depois da posição 15 estão os **9 links de backup** (posições 16 a 24), rotulados `BACKUP 01 - ...` a `BACKUP 09 - ...`. Nenhum deles aparece como pasta.
+## Arquivos publicados
 
-## Como funcionam os arquivos
+- `lista-pastas.m3u`: playlist direta com somente 15 posições. O nome antigo é preservado para manter o mesmo link cadastrado na LG; o conteúdo **não tem pastas**.
+- `lista.m3u`: a mesma lista de 15 posições, sem backups.
+- `canais-abertos.m3u`: a mesma lista de 15 posições.
+- `sem-sinal.m3u8` e `sem-sinal00.ts`: vídeo que permite preencher as 6 posições SEM SINAL.
+- `index.html`: site TV ONLINE, atualizado para 15 posições.
 
-- `lista-pastas.m3u`: **URL já usada na TV**, agora lista direta com 24 posições. Nome mantido só para evitar alterar o link configurado na TV.
-- `lista.m3u`: idêntica à anterior, direta com 24 posições (15 principais + 9 backups).
-- `canais-abertos.m3u`: só a grade de 15 posições.
-- `teste-de-links.m3u`: 9 links de reserva preservados como arquivo técnico, sem pasta na tela.
-- `sem-sinal.m3u8` e `sem-sinal00.ts`: cartela de aproximadamente 8 segundos para os espaços reservados; necessário hospedar os dois.
-- `index.html`: site institucional atualizado para TV ONLINE, sem gerador de pastas.
+**Remova do GitHub o arquivo antigo `teste-de-links.m3u`.** Ele não é necessário nem referenciado na nova playlist. Guarde os nove links antigos somente no arquivo privado `TV_ONLINE_BACKUP_LOCAL_9_LINKS_NAO_ENVIAR_GITHUB.m3u`, baixado separadamente e **não enviado ao repositório**.
 
-## URL a manter no SS IPTV
+## Endereço da lista na LG (não muda)
 
 https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
 
-**Renomear o bloco da tela inicial:** no SS IPTV, vá a **Configurações → Conteúdo → Listas externas**, localize o título `TV SÃO PAULO` e renomeie para **TV ONLINE** (ou pelo editor de playlists externo, caso tenha cadastrado lá). A mudança do nome visual não é controlada pelo arquivo M3U.
+No SS IPTV, renomeie o título da playlist externa de TV SÃO PAULO para **TV ONLINE** (título local separado do arquivo M3U).
 
-## Correções já incorporadas das versões anteriores
+## Correções preservadas
 
-- SBT (04): teste 06, SBT Nova Mutum (MT), pode não refletir programação regional de SP.
-- Globo (05): teste 03 aprovado, Barigui Telecom, identificação de SP.
-- Record (07): link 02 nacional aprovado, pode não refletir programação local de SP.
-- RedeTV! (09): link 02 V7 aprovado.
-- Band (13): logo hospedada em `logo-band.png` (arquivo já existente no repositório).
-- Demais canais, logotipos, reservas e artes existentes mantidos.
+- SBT 04: teste 06 aprovado (fonte identificada como SBT Nova Mutum - MT).
+- Globo 05: teste 03 aprovado (origem identificada como SP).
+- Record 07: LINK 02 nacional aprovado (pode ter diferenças de programação regional).
+- RedeTV! 09: LINK 02 V7 aprovado.
+- Band 13: logo em `logo-band.png`, já existente no repositório.
+- Os demais canais e endereços permanecem como na V15.
 
-**Sobre a publicação:** substitua os oito arquivos da pasta `ATUALIZAR-NA-RAIZ` no repositório `TRFIRE/TRFIRE.TV`, com nomes idênticos, e confirme o commit. Não é necessário apagar imagens nem outros arquivos antigos. A lista externa continuará no mesmo endereço.
+## Publicação
 
-A reprodução de um stream não confirma autorização para sua redistribuição pública; use somente endereços que tenha permissão para acessar e divulgar.
+Extraia o ZIP e carregue na raiz do repositório os **7 arquivos** da pasta `ATUALIZAR-NA-RAIZ`. Substitua os arquivos com mesmo nome e confirme o commit. Depois, **delete `teste-de-links.m3u` no GitHub** por meio do menu de arquivo (Delete file) e faça o commit da exclusão. Não carregue o arquivo de backup privado ao GitHub.
+
+A reprodução de um link não confirma autorização de retransmissão pública; use somente fontes para as quais você tenha permissão de acesso e publicação.

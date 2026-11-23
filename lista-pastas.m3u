@@ -59,39 +59,3 @@ http://170.83.16.50/AXN/index.m3u8
 #EXTSIZE: Medium
 #EXTBG: #23385c
 http://38.134.250.110:8000/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="SBTNacional.br" tvg-name="BACKUP 01 - SBT - LINK 02 (TESTE 01)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo%20do%20SBT%20%282025%29.png" group-title="TV ONLINE",BACKUP 01 - SBT - LINK 02 (TESTE 01)
-#EXTSIZE: Medium
-#EXTBG: #2250a8
-https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
-#EXTINF:-1 tvg-id="SBTInterior.br" tvg-name="BACKUP 02 - SBT - LINK 05 (TESTE 04)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo%20do%20SBT%20%282025%29.png" group-title="TV ONLINE",BACKUP 02 - SBT - LINK 05 (TESTE 04)
-#EXTSIZE: Medium
-#EXTBG: #2250a8
-https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTNovaMutum.br" tvg-name="BACKUP 03 - SBT - LINK 07 (TESTE 06)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo%20do%20SBT%20%282025%29.png" group-title="TV ONLINE",BACKUP 03 - SBT - LINK 07 (TESTE 06)
-#EXTSIZE: Medium
-#EXTBG: #2250a8
-https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeGlobo.br" tvg-name="BACKUP 04 - GLOBO - LINK 05 (RJ - TESTE V4)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/TV%20Globo%20logo%20%28April%202025%29.png" group-title="TV ONLINE",BACKUP 04 - GLOBO - LINK 05 (RJ - TESTE V4)
-#EXTSIZE: Medium
-#EXTBG: #171a46
-http://138.204.86.4:8080/GLOBO_HD/index.m3u8
-#EXTINF:-1 tvg-id="RedeGlobo.br" tvg-name="BACKUP 05 - GLOBO - LINK 06 (TV BAHIA - TESTE V4)" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/TV%20Globo%20logo%20%28April%202025%29.png" group-title="TV ONLINE",BACKUP 05 - GLOBO - LINK 06 (TV BAHIA - TESTE V4)
-#EXTSIZE: Medium
-#EXTBG: #171a46
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 tvg-id="Record.br" tvg-name="BACKUP 06 - RECORD - LINK 02 (NACIONAL - APROVADO)" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/record-tv-logo.png" group-title="TV ONLINE",BACKUP 06 - RECORD - LINK 02 (NACIONAL - APROVADO)
-#EXTSIZE: Medium
-#EXTBG: #162e6c
-https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
-#EXTINF:-1 tvg-id="RecordTVSaoPaulo.br" tvg-name="BACKUP 07 - RECORD SP - TESTE 01 (APROVADO)" tvg-logo="https://logodownload.org/wp-content/uploads/2013/12/record-tv-logo.png" group-title="TV ONLINE",BACKUP 07 - RECORD SP - TESTE 01 (APROVADO)
-#EXTSIZE: Medium
-#EXTBG: #162e6c
-https://cdn-sp2.satlabscloud.com.br/RECORD_SP/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7
-#EXTINF:-1 tvg-id="RedeTV.br" tvg-name="BACKUP 08 - REDETV! - LINK 02 (V7 APROVADO)" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/redetv-logo.png" group-title="TV ONLINE",BACKUP 08 - REDETV! - LINK 02 (V7 APROVADO)
-#EXTSIZE: Medium
-#EXTBG: #342057
-http://170.83.16.50/REDE_TV/index.m3u8
-#EXTINF:-1 tvg-id="RedeTV.br" tvg-name="BACKUP 09 - REDETV! - LINK 04 (V7 APROVADO)" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/redetv-logo.png" group-title="TV ONLINE",BACKUP 09 - REDETV! - LINK 04 (V7 APROVADO)
-#EXTSIZE: Medium
-#EXTBG: #342057
-http://186.219.52.187/rede_tv/index.m3u8
