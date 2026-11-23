@@ -1,31 +1,51 @@
-# TV São Paulo — Lista para SS IPTV da LG
+# TV ONLINE — V15 (sem pastas) — SS IPTV LG
 
-## Atualização V12 — 16/11/2026
+A playlist abre diretamente nos canais, **sem nenhuma pasta**.
 
-Este repositório contém uma playlist pessoal de duas categorias navegáveis:
+## Ordem da grade principal (01 a 15)
 
-- **CANAIS TV ABERTA**: 9 canais selecionados pelo proprietário, incluindo AXN e Universal TV na sequência solicitada.
-- **CANAIS ALEATÓRIOS**: 9 links alternativos previamente testados.
+01. SEM SINAL
+02. TV CULTURA - SP
+03. SEM SINAL
+04. SBT HD - SP
+05. GLOBO HD - SP
+06. SEM SINAL
+07. RECORD HD - SP
+08. SEM SINAL
+09. REDE TV! HD - SP
+10. SEM SINAL
+11. GAZETA HD - SP
+12. SEM SINAL
+13. BAND HD - SP
+14. AXN HD - BR
+15. UNIVERSAL TV
 
-A nomenclatura CANAIS TV ABERTA é uma escolha de organização do proprietário; AXN e Universal TV são canais de TV por assinatura.
+Depois da posição 15 estão os **9 links de backup** (posições 16 a 24), rotulados `BACKUP 01 - ...` a `BACKUP 09 - ...`. Nenhum deles aparece como pasta.
 
-## Arquivos
+## Como funcionam os arquivos
 
-- `canais-abertos.m3u`: 9 canais principais.
-- `teste-de-links.m3u`: 9 entradas de reserva; permanece inalterado nesta atualização.
-- `lista-pastas.m3u`: índice das duas pastas para SS IPTV.
-- `lista.m3u`: versão simples, com os 18 itens.
-- `index.html`: página e gerador da lista com pastas.
-- `capa-principal.jpg` e `logo-principal.png`: arte já hospedada; não é necessário substituí-la.
+- `lista-pastas.m3u`: **URL já usada na TV**, agora lista direta com 24 posições. Nome mantido só para evitar alterar o link configurado na TV.
+- `lista.m3u`: idêntica à anterior, direta com 24 posições (15 principais + 9 backups).
+- `canais-abertos.m3u`: só a grade de 15 posições.
+- `teste-de-links.m3u`: 9 links de reserva preservados como arquivo técnico, sem pasta na tela.
+- `sem-sinal.m3u8` e `sem-sinal00.ts`: cartela de aproximadamente 8 segundos para os espaços reservados; necessário hospedar os dois.
+- `index.html`: site institucional atualizado para TV ONLINE, sem gerador de pastas.
 
-## Endereço usado no SS IPTV
+## URL a manter no SS IPTV
 
-`https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u`
+https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
 
-Este link não muda quando o GitHub publica uma atualização dos arquivos. Na TV, basta atualizar a playlist após o GitHub Pages terminar a publicação.
+**Renomear o bloco da tela inicial:** no SS IPTV, vá a **Configurações → Conteúdo → Listas externas**, localize o título `TV SÃO PAULO` e renomeie para **TV ONLINE** (ou pelo editor de playlists externo, caso tenha cadastrado lá). A mudança do nome visual não é controlada pelo arquivo M3U.
 
-## Observações
+## Correções já incorporadas das versões anteriores
 
-A confirmação de reprodução na TV não comprova autorização de retransmissão, permanência, disponibilidade regional ou idioma. O Universal TV incluído foi identificado em catálogo como sinal da Colômbia; o áudio português brasileiro ainda não foi confirmado. Use e compartilhe apenas fontes sobre as quais possua direitos de acesso e distribuição. Links públicos, especialmente de canais pagos, podem ser retirados ou bloqueados.
+- SBT (04): teste 06, SBT Nova Mutum (MT), pode não refletir programação regional de SP.
+- Globo (05): teste 03 aprovado, Barigui Telecom, identificação de SP.
+- Record (07): link 02 nacional aprovado, pode não refletir programação local de SP.
+- RedeTV! (09): link 02 V7 aprovado.
+- Band (13): logo hospedada em `logo-band.png` (arquivo já existente no repositório).
+- Demais canais, logotipos, reservas e artes existentes mantidos.
 
-A lista foi organizada para reprodução em SS IPTV, não contorna assinaturas, autenticação nem proteção de conteúdo.
+**Sobre a publicação:** substitua os oito arquivos da pasta `ATUALIZAR-NA-RAIZ` no repositório `TRFIRE/TRFIRE.TV`, com nomes idênticos, e confirme o commit. Não é necessário apagar imagens nem outros arquivos antigos. A lista externa continuará no mesmo endereço.
+
+A reprodução de um stream não confirma autorização para sua redistribuição pública; use somente endereços que tenha permissão para acessar e divulgar.
