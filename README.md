@@ -1,6 +1,6 @@
-# TV ONLINE — V17 — DISNEY CHANNEL - HD
+# TV ONLINE — V18 — 24 posições
 
-A playlist abre diretamente nos canais, sem pastas, com 19 posições. As seis posições SEM SINAL e as 18 posições anteriores foram mantidas. Disney Channel foi acrescentado na posição 19.
+A lista abre diretamente nos canais, sem pastas. As 19 posições da V17 foram preservadas integralmente. Cinco canais aprovados pelo usuário foram acrescentados nas posições 20 a 24. Há 18 canais e seis posições SEM SINAL.
 
 ## Ordem da grade
 
@@ -23,22 +23,33 @@ A playlist abre diretamente nos canais, sem pastas, com 19 posições. As seis p
 17. CINEMAX HD
 18. UNIVERSAL TV
 19. DISNEY CHANNEL - HD
+20. SONY MOVIES HD
+21. WARNER CHANNEL HD
+22. SONY CHANNEL HD
+23. TELECINE ACTION HD
+24. A&E HD
 
 ## Arquivos a atualizar na raiz do GitHub
 
 - `lista-pastas.m3u` — endereço usado pelo SS IPTV.
 - `lista.m3u` — mesma grade direta.
 - `canais-abertos.m3u` — mesma grade direta, mantida por compatibilidade.
-- `index.html` — página TV ONLINE com a grade atualizada.
-- `README.md` — documentação da V17.
+- `index.html` — página TV ONLINE atualizada.
+- `README.md` — documentação V18.
 - `LEIA-ME-ATUALIZACAO.txt` — instruções atualizadas.
 
-Os demais arquivos do repositório, incluindo `capa-principal.jpg`, `logo-band.png`, `sem-sinal.m3u8` e `sem-sinal00.ts`, devem permanecer no GitHub sem alterações. Este pacote contém somente os arquivos de atualização.
+Mantenha todos os demais arquivos existentes no repositório, incluindo imagens e os arquivos de SEM SINAL. Este ZIP contém os seis arquivos de atualização, não uma cópia integral do repositório.
 
 ## URL inalterada
 
 https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
 
-## Observações
+## Testes de origem
 
-O endereço de Disney Channel foi fornecido pelo proprietário da lista. O idioma, a resolução, a disponibilidade e a autorização de distribuição não foram verificados. O identificador da entrada foi definido como DisneyChannel.ar por referência ao caminho ARG informado; não comprova a região do sinal. Não foi incluído logotipo oficial novo. Publique somente sinais que tenha direito de distribuir. As observações anteriores sobre Universal TV e a programação regional continuam válidas.
+- SONY MOVIES HD: SONY MOVIES - TESTE 02.
+- WARNER CHANNEL HD: WARNER CHANNEL - TESTE 15.
+- SONY CHANNEL HD: SONY CHANNEL - TESTE 01.
+- TELECINE ACTION HD: TELECINE ACTION - TESTE 01.
+- A&E HD: A&E - TESTE 06.
+
+A aprovação informada pelo usuário diz respeito à reprodução. Não foram verificadas a autorização de distribuição, a resolução, o idioma nem a estabilidade atual. Warner Channel foi identificado na lista de testes como LATAM. O logotipo do Sony Movies foi mantido do arquivo de teste, sem validação; os outros quatro novos canais têm identificação textual no site, sem novo logotipo oficial. Publique somente sinais que tenha direito de distribuir. As ressalvas anteriores sobre os demais canais permanecem aplicáveis.
