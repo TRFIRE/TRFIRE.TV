@@ -1,8 +1,8 @@
-# TV ONLINE — V15.1 — Apenas 15 posições na lista pública
+# TV ONLINE — V16 — AMC HD, SPACE HD e CINEMAX HD
 
-A playlist abre **diretamente** nos canais, sem pastas. A sequência termina em **15. UNIVERSAL TV**. Nenhum canal de backup é publicado ou aparece depois da posição 15.
+A playlist abre diretamente nos canais, **sem pastas**, com 18 posições numeradas para o controle remoto. Seis posições são **SEM SINAL**. A posição 14 continua com AXN HD, os três novos canais ficam imediatamente depois dele e Universal TV passa para a posição 18.
 
-## Ordem da grade (controle remoto)
+## Ordem da grade
 
 01. SEM SINAL
 02. TV CULTURA - SP
@@ -18,35 +18,25 @@ A playlist abre **diretamente** nos canais, sem pastas. A sequência termina em 
 12. SEM SINAL
 13. BAND HD - SP
 14. AXN HD - BR
-15. UNIVERSAL TV
+15. AMC HD
+16. SPACE HD
+17. CINEMAX HD
+18. UNIVERSAL TV
 
-## Arquivos publicados
+## Arquivos que devem ser atualizados na raiz do GitHub
 
-- `lista-pastas.m3u`: playlist direta com somente 15 posições. O nome antigo é preservado para manter o mesmo link cadastrado na LG; o conteúdo **não tem pastas**.
-- `lista.m3u`: a mesma lista de 15 posições, sem backups.
-- `canais-abertos.m3u`: a mesma lista de 15 posições.
-- `sem-sinal.m3u8` e `sem-sinal00.ts`: vídeo que permite preencher as 6 posições SEM SINAL.
-- `index.html`: site TV ONLINE, atualizado para 15 posições.
+- `lista-pastas.m3u`: endereço usado atualmente pelo SS IPTV. Apesar do nome histórico, este arquivo NÃO contém pastas.
+- `lista.m3u`: mesma lista direta, com 18 posições.
+- `canais-abertos.m3u`: mesma lista direta de 18 posições, mantida por compatibilidade.
+- `index.html`: página TV ONLINE atualizada para a nova grade.
+- `README.md`: este documento.
 
-**Remova do GitHub o arquivo antigo `teste-de-links.m3u`.** Ele não é necessário nem referenciado na nova playlist. Guarde os nove links antigos somente no arquivo privado `TV_ONLINE_BACKUP_LOCAL_9_LINKS_NAO_ENVIAR_GITHUB.m3u`, baixado separadamente e **não enviado ao repositório**.
+`sem-sinal.m3u8` e `sem-sinal00.ts` continuam **idênticos** à V15.1. Podem permanecer no repositório, não é necessário reenviá-los. Não envie backups antigos nem o arquivo `teste-de-links.m3u`. Se esse arquivo ainda existir no GitHub, exclua-o em uma operação separada, conforme a organização anterior.
 
-## Endereço da lista na LG (não muda)
+## URL inalterada
 
 https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
 
-No SS IPTV, renomeie o título da playlist externa de TV SÃO PAULO para **TV ONLINE** (título local separado do arquivo M3U).
+## Observações
 
-## Correções preservadas
-
-- SBT 04: teste 06 aprovado (fonte identificada como SBT Nova Mutum - MT).
-- Globo 05: teste 03 aprovado (origem identificada como SP).
-- Record 07: LINK 02 nacional aprovado (pode ter diferenças de programação regional).
-- RedeTV! 09: LINK 02 V7 aprovado.
-- Band 13: logo em `logo-band.png`, já existente no repositório.
-- Os demais canais e endereços permanecem como na V15.
-
-## Publicação
-
-Extraia o ZIP e carregue na raiz do repositório os **7 arquivos** da pasta `ATUALIZAR-NA-RAIZ`. Substitua os arquivos com mesmo nome e confirme o commit. Depois, **delete `teste-de-links.m3u` no GitHub** por meio do menu de arquivo (Delete file) e faça o commit da exclusão. Não carregue o arquivo de backup privado ao GitHub.
-
-A reprodução de um link não confirma autorização de retransmissão pública; use somente fontes para as quais você tenha permissão de acesso e publicação.
+AMC HD, SPACE HD e CINEMAX HD usam os endereços informados pelo proprietário como aprovados nos testes de reprodução na LG. Isso não demonstra autorização para retransmissão pública ou compartilhamento: publique somente fontes que tenha direito de distribuir. Alguns URLs podem expirar ou sair do ar. A fonte do Universal não teve o idioma PT-BR confirmado. O nome de canal de São Paulo não garante programação regional dessa origem.

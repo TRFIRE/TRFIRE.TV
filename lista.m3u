@@ -55,6 +55,18 @@ https://cdn-sp2.satlabscloud.com.br/BAND_HD/index.m3u8?token=ulDZjn1kAAan1kzoXmU
 #EXTSIZE: Medium
 #EXTBG: #151515
 http://170.83.16.50/AXN/index.m3u8
+#EXTINF:-1 tvg-id="AMC.br" tvg-name="AMC HD" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Amc_hd_2013.png" group-title="TV ONLINE",AMC HD
+#EXTSIZE: Medium
+#EXTBG: #1c252e
+http://170.83.49.66:8083/AMCHD/index.m3u8
+#EXTINF:-1 tvg-id="Space.br" tvg-name="SPACE HD" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/Canal_Space_Latin_America.PNG" group-title="TV ONLINE",SPACE HD
+#EXTSIZE: Medium
+#EXTBG: #20233e
+http://195.181.163.144:14730/
+#EXTINF:-1 tvg-id="Cinemax.br" tvg-name="CINEMAX HD" tvg-logo="https://commons.wikimedia.org/wiki/Special:FilePath/CINEMAX_logo.png" group-title="TV ONLINE",CINEMAX HD
+#EXTSIZE: Medium
+#EXTBG: #202020
+https://cdn-sp2.satlabscloud.com.br/CINEMAX/index.m3u8?token=ulDZjn1kAAan1kzoXmUL1B84gijOI6v7
 #EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Colombia" tvg-name="UNIVERSAL TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" group-title="TV ONLINE",UNIVERSAL TV
 #EXTSIZE: Medium
 #EXTBG: #23385c
