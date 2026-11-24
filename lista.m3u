@@ -71,3 +71,7 @@ https://cdn-sp2.satlabscloud.com.br/CINEMAX/index.m3u8?token=ulDZjn1kAAan1kzoXmU
 #EXTSIZE: Medium
 #EXTBG: #23385c
 http://38.134.250.110:8000/play/a006/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.ar" tvg-name="DISNEY CHANNEL - HD" group-title="TV ONLINE",DISNEY CHANNEL - HD
+#EXTSIZE: Medium
+#EXTBG: #193a75
+http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8

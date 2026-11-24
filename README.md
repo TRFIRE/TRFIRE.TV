@@ -1,6 +1,6 @@
-# TV ONLINE — V16 — AMC HD, SPACE HD e CINEMAX HD
+# TV ONLINE — V17 — DISNEY CHANNEL - HD
 
-A playlist abre diretamente nos canais, **sem pastas**, com 18 posições numeradas para o controle remoto. Seis posições são **SEM SINAL**. A posição 14 continua com AXN HD, os três novos canais ficam imediatamente depois dele e Universal TV passa para a posição 18.
+A playlist abre diretamente nos canais, sem pastas, com 19 posições. As seis posições SEM SINAL e as 18 posições anteriores foram mantidas. Disney Channel foi acrescentado na posição 19.
 
 ## Ordem da grade
 
@@ -22,16 +22,18 @@ A playlist abre diretamente nos canais, **sem pastas**, com 18 posições numera
 16. SPACE HD
 17. CINEMAX HD
 18. UNIVERSAL TV
+19. DISNEY CHANNEL - HD
 
-## Arquivos que devem ser atualizados na raiz do GitHub
+## Arquivos a atualizar na raiz do GitHub
 
-- `lista-pastas.m3u`: endereço usado atualmente pelo SS IPTV. Apesar do nome histórico, este arquivo NÃO contém pastas.
-- `lista.m3u`: mesma lista direta, com 18 posições.
-- `canais-abertos.m3u`: mesma lista direta de 18 posições, mantida por compatibilidade.
-- `index.html`: página TV ONLINE atualizada para a nova grade.
-- `README.md`: este documento.
+- `lista-pastas.m3u` — endereço usado pelo SS IPTV.
+- `lista.m3u` — mesma grade direta.
+- `canais-abertos.m3u` — mesma grade direta, mantida por compatibilidade.
+- `index.html` — página TV ONLINE com a grade atualizada.
+- `README.md` — documentação da V17.
+- `LEIA-ME-ATUALIZACAO.txt` — instruções atualizadas.
 
-`sem-sinal.m3u8` e `sem-sinal00.ts` continuam **idênticos** à V15.1. Podem permanecer no repositório, não é necessário reenviá-los. Não envie backups antigos nem o arquivo `teste-de-links.m3u`. Se esse arquivo ainda existir no GitHub, exclua-o em uma operação separada, conforme a organização anterior.
+Os demais arquivos do repositório, incluindo `capa-principal.jpg`, `logo-band.png`, `sem-sinal.m3u8` e `sem-sinal00.ts`, devem permanecer no GitHub sem alterações. Este pacote contém somente os arquivos de atualização.
 
 ## URL inalterada
 
@@ -39,4 +41,4 @@ https://trfire.github.io/TRFIRE.TV/lista-pastas.m3u
 
 ## Observações
 
-AMC HD, SPACE HD e CINEMAX HD usam os endereços informados pelo proprietário como aprovados nos testes de reprodução na LG. Isso não demonstra autorização para retransmissão pública ou compartilhamento: publique somente fontes que tenha direito de distribuir. Alguns URLs podem expirar ou sair do ar. A fonte do Universal não teve o idioma PT-BR confirmado. O nome de canal de São Paulo não garante programação regional dessa origem.
+O endereço de Disney Channel foi fornecido pelo proprietário da lista. O idioma, a resolução, a disponibilidade e a autorização de distribuição não foram verificados. O identificador da entrada foi definido como DisneyChannel.ar por referência ao caminho ARG informado; não comprova a região do sinal. Não foi incluído logotipo oficial novo. Publique somente sinais que tenha direito de distribuir. As observações anteriores sobre Universal TV e a programação regional continuam válidas.
